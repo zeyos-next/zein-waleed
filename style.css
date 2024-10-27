@@ -49,7 +49,8 @@ canvas {
 }
 .card {
   width: 340px;
-  margin: auto;
+  margin-inline: auto;
+  margin-block: 5%;
   overflow-y: auto;
   position: relative;
   z-index: 1;
@@ -420,7 +421,7 @@ canvas {
   color: #fff;
   position: absolute;
   right: 10%;
-  bottom: 10%;
+  bottom: 15%;
 }
 .ad a{
   color: #fff;
