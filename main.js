@@ -18,3 +18,14 @@ const handleButtonClick = (e) => {
 buttons.forEach((btn) => {
   btn.addEventListener("click", handleButtonClick);
 });
+
+let pagelink = document.getElementById("pagelink");
+let newscreen = document.getElementsByClassName("news-screen")[0];
+let okay = document.getElementById("ok")
+pagelink.onclick = ()=>{
+  newscreen.classList.add("active");
+
+}
+okay.onclick = ()=>{
+  newscreen.classList.remove("active")
+}
